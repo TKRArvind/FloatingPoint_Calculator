@@ -540,7 +540,6 @@ def FLP2DEC(flpO,Ewidth):
 #======================================== CLI =============================================#
 if __name__=='__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument("-i","--info",action='store_true',help ="Shows more information about the program")
     parser.add_argument("-a","--add",action='store_true',help ="Add floatA and floatB inputs ")
     parser.add_argument("-s","--sub",action='store_true',help ="Subtract floatB from floatA ")
     parser.add_argument("-ds","--displayStep",action='store_true',help ="Shows Intermediate steps in addition and subtraction ")
@@ -558,11 +557,8 @@ if __name__=='__main__':
     
     FLAGS = parser.parse_args()
     
-    if(FLAGS.info):
-        clearScreen()
-        print("\n------------ About Floating Point function --------\n\n")
-        showInfo()
-    elif(FLAGS.add):
+    
+    if(FLAGS.add):
         ans = FLPADD(FLAGS.floata,FLAGS.floatb,FLAGS.exponentWidth,0,FLAGS.displayStep)
         if(FLAGS.prettyPrint):
             print("")
