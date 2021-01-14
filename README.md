@@ -10,6 +10,7 @@ This Floating point program has four main functionality and some additional feat
 
 > A function f doing task A is denoted with *A@f*
 
+
 ## A. Main Functions:
 
 ### 1. Addition *@FLPADD*
@@ -63,5 +64,15 @@ This Floating point program has four main functionality and some additional feat
 ```
 FLP2DEC(Hex,Ewidth)
 DEC2FLP(dec,Ewidth,Nwidth)
-FLPADD(Hexa,Hexb,Ewidth,Sign,displayIntermediate) #sign=1 subtraction; displayIntermiate = True shows steps
+FLPADD(Hexa,Hexb,Ewidth,Sign,displayIntermediate) 
 ```
+> Note: Hex and dec should be a string; sign=1 subtraction; displayIntermiate = True shows steps
+
+## E. Demo
+
+
+<p align="center">
+	<img src="https://ghcdn.rawgit.org/TKRArvind/FloatingPoint_Calculator/main/test/graphics.gif" alt="Demo of the calculator" width=800 >
+</p>
+
+
