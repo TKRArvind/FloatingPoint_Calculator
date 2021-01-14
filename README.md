@@ -14,15 +14,15 @@ This Floating point program has four main functionality and some additional feat
 
 ### 1. Addition *@FLPADD*
   This function computes the addition of two floating point numbers given ashex numbers like 0xABCD/0xabcd. It also needs width of the exponent the given floating point has as it can vary. It doesn't require any specification on the number of bits the floating point has i.e 32,16 bit. It automaticallly considers the N bit from the given Hex and computes the addition for the given exponent width. \
-	`python FLP.py --add --exponentWidth 5 --floata 0x0000 --floatb 0x0000`
+	`python FLP.py --add --exponentWidth 5 --floata 0x0600 --floatb 0x0080`
 
 ### 2. Subtraction *@FLPADD*
    The same addition function when given *'sign as 1'* computes the difference of two floating point numbers. \
-	 `python FLP.py -s -ew 5 -fa 0x0000 -fb 0x0000`
+	 `python FLP.py -s -ew 5 -fa 0x000D -fb 0x8083`
    
 ### 3. Float to Decimal Conversion *@FLP2DEC*
    This function converts the float given to its decimal value. It requires exponent width and auto considers the floating point bitwidth. \
-   `python FLP.py -ew 5 -f2d 0x0000`
+   `python FLP.py -ew 5 -f2d 0x0090`
 
 ### 4. Decimal to Float Conversion *@DEC2FLP*
    This function converts the decimal to N bit floatinng point representation with Ebit exponents. It can take **Inf, MInf, NaN** and can even take numbers like 0.001 or 1E-3. \
