@@ -57,3 +57,11 @@ This Floating point program has four main functionality and some additional feat
 ### 3. PrettyPrinting :
    This switch displays rich information about the process including what the inputs-outputs are, what switches are taken into consideration and their values.\
 	 `python3 FLP.py -pp -ew 5 -n 16 -d2f 1E-7`
+
+## D. Import FLP.PY
+
+```
+FLP2DEC(Hex,Ewidth)
+DEC2FLP(dec,Ewidth,Nwidth)
+FLPADD(Hexa,Hexb,Ewidth,Sign,displayIntermediate) #sign=1 subtraction; displayIntermiate = True shows steps
+```
