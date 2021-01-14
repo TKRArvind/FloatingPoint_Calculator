@@ -525,7 +525,7 @@ def FLP2DEC(flpO,Ewidth):
         return float("NaN");
    else:
     FLPValue = sum * 2**(exp) #mantissa times two raised to the power of exponent without bias.
-    FLPValue = round(FLPValue,decimalRoundby)
+    #FLPValue = round(FLPValue,decimalRoundby)   can specify how much rounding you require
     if(str(input[0]) == '1'):
         return -1*FLPValue
     else:
