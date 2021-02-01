@@ -233,7 +233,7 @@ def FLPADD(floata,floatb,Ewidth,sign,display):
         NormalisedExp -= preshift
         NormalisedMan = arithmeticResult[preshift+2:]#removing the hidden bit present at preshift
     else:
-        NormalisedMan = arithmeticResult[MaxExp:]
+        NormalisedMan = arithmeticResult[MaxExp+1:]
         NormalisedExp = 0;
     
     
