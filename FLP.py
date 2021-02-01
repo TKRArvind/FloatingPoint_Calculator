@@ -213,6 +213,7 @@ def FLPADD(floata,floatb,Ewidth,sign,display):
     NormalisedMan = '' 
     NormalisedExp = MaxExp
     
+    preshift = 2*N #some big number
     try:
         preshift = arithmeticResult[1:].index('1') #starting from hidden so neglected carry bit
     except ValueError:
