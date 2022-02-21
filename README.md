@@ -72,7 +72,7 @@ FLPADD(Hexa,Hexb,Ewidth,Sign,displayIntermediate)
 
 
 <p align="center">
-	<img src="https://ghcdn.rawgit.org/TKRArvind/FloatingPoint_Calculator/main/test/graphics.gif" alt="Demo of the calculator" >
+	<!--- <img src="https://ghcdn.rawgit.org/TKRArvind/FloatingPoint_Calculator/main/test/graphics.gif" alt="Demo of the calculator" > -->
 	<img src="https://github.com/TKRArvind/FloatingPoint_Calculator/blob/main/test/graphics.gif" alt="Demo of the calculator" >
 </p>
 
